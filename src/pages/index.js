@@ -17,10 +17,10 @@ function IndexPage(props) {
         size="lg"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
-        buttonText="Start Free Trial"
-        buttonColor="light"
+        title="The must-have app for Cannabis connoisseurs!"
+        subtitle="Mint Bouquet is here to help you manage your collection of cannabis flower."
+        buttonText="Create Account"
+        buttonColor="secondary"
         buttonOnClick={() => {
           // Navigate to pricing page
           router.push("/pricing");
@@ -33,19 +33,10 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Features"
-        subtitle="All the features you need to move faster"
+        subtitle="All you need to help manage your cannabis flower collection."
       ></FeaturesSection>
-      <ClientsSection
-        bg="light"
-        textColor="dark"
-        size="md"
-        bgImage=""
-        bgImageOpacity={1}
-        title="You're in good company"
-        subtitle=""
-      ></ClientsSection>
       <TestimonialsSection
-        bg="white"
+        bg="light"
         textColor="dark"
         size="md"
         bgImage=""
@@ -59,10 +50,10 @@ function IndexPage(props) {
         size="sm"
         bgImage=""
         bgImageOpacity={1}
-        title="Ready to get started?"
+        title="Ready to start?"
         subtitle=""
-        buttonText="Get Started"
-        buttonColor="light"
+        buttonText="Create Account"
+        buttonColor="secondary"
         buttonOnClick={() => {
           // Navigate to pricing page
           router.push("/pricing");

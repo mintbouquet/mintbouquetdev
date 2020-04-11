@@ -12,6 +12,8 @@ import { Switch, Route, Router } from "./../util/router.js";
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
+import logo from "./../images/logo-mintbouquet-h-light.svg";
+import logo2 from "./../images/logo-mintbouquet-light.svg";
 
 function App(props) {
   return (
@@ -22,7 +24,7 @@ function App(props) {
             bg="primary"
             variant="dark"
             expand="md"
-            logo="https://uploads.divjoy.com/logo-white.svg"
+            logo={logo}
           ></NavbarCustom>
 
           <Switch>
@@ -59,14 +61,14 @@ function App(props) {
           </Switch>
 
           <Footer
-            bg="white"
-            textColor="dark"
+            bg="primary"
+            textColor="white"
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            description="A short description of what you do here"
-            copyright="© 2019 Company"
-            logo="https://uploads.divjoy.com/logo.svg"
+            description="Manage your cannabis flower"
+            copyright="© 2020 Mint Bouquet App"
+            logo={logo2}
           ></Footer>
         </>
       </Router>

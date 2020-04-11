@@ -27,28 +27,28 @@ function FeaturesSection(props) {
             imageRatio="4by3"
             items={[
               {
-                title: "Lorem Ipsum",
+                title: "Amounts",
                 body:
-                  "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                  "Easily view the amount of your individual flower strains.",
                 image: "https://uploads.divjoy.com/undraw-fish_bowl_uu88.svg"
               },
               {
-                title: "Lorem Ipsum",
+                title: "Maintenance",
                 body:
-                  "Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus.",
+                  "See when your strains may need a humidity pack replacement.",
                 image: "https://uploads.divjoy.com/undraw-directions_x53j.svg"
               },
               {
-                title: "Lorem Ipsum",
+                title: "Usage",
                 body:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper",
+                  "See what strains you enjoy most and when you should replenish.",
                 image:
                   "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg"
               },
               {
-                title: "Lorem Ipsum",
+                title: "Stay Fresh",
                 body:
-                  "Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo",
+                  "View purchase and harvest dates to ensure freshness.",
                 image:
                   "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
               }
